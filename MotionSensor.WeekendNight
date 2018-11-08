@@ -1,0 +1,40 @@
+{
+  "name": "MotionSensor.WeekendNight",
+  "conditions": [
+    {
+      "address": "/sensors/26/state/status",
+      "operator": "eq",
+      "value": "1"
+    },
+    {
+      "address": "/sensors/26/state/status",
+      "operator": "dx"
+    },
+    {
+      "address": "/config/localtime",
+      "operator": "in",
+      "value": "W3/T03:00:00/T07:45:00"
+    },
+    {
+      "address": "/groups/1/state/any_on",
+      "operator": "eq",
+      "value": "false"
+    }
+  ],
+  "actions": [
+    {
+      "address": "/groups/1/action",
+      "method": "PUT",
+      "body": {
+        "scene": "FHkEygXC5crGLyl"
+      }
+    },
+    {
+      "address": "/sensors/26/state",
+      "method": "PUT",
+      "body": {
+        "status": 2
+      }
+    }
+  ]
+}

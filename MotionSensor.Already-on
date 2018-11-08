@@ -1,0 +1,28 @@
+{
+  "name": "MotionSensor.Already-on",
+  "conditions": [
+    {
+      "address": "/sensors/26/state/status",
+      "operator": "eq",
+      "value": "1"
+    },
+    {
+      "address": "/sensors/26/state/status",
+      "operator": "dx"
+    },
+    {
+      "address": "/groups/1/state/any_on",
+      "operator": "eq",
+      "value": "true"
+    }
+  ],
+  "actions": [
+    {
+      "address": "/sensors/26/state",
+      "method": "PUT",
+      "body": {
+        "status": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "MotionSensor.Recover",
+  "conditions": [
+    {
+      "address": "/sensors/17/state/presence",
+      "operator": "eq",
+      "value": "true"
+    },
+    {
+      "address": "/sensors/17/state/presence",
+      "operator": "dx"
+    },
+    {
+      "address": "/sensors/26/state/status",
+      "operator": "eq",
+      "value": "3"
+    },
+    {
+      "address": "/sensors/18/state/daylight",
+      "operator": "eq",
+      "value": "false"
+    }
+  ],
+  "actions": [
+    {
+      "address": "/sensors/26/state",
+      "method": "PUT",
+      "body": {
+        "status": 2
+      }
+    },
+    {
+      "address": "/groups/1/action",
+      "method": "PUT",
+      "body": {
+        "on": true
+      }
+    }
+  ]
+}

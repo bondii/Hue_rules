@@ -1,0 +1,31 @@
+{
+  "name": "ChangeToEvening",
+  "conditions": [
+    {
+      "address": "/config/localtime",
+      "operator": "in",
+      "value": "T17:00:00/T17:00:01"
+    },
+    {
+     "address": "/groups/1/state/any_on",
+     "operator": "eq",
+     "value": "true"
+    }
+  ],
+  "actions": [
+    {
+      "address": "/groups/1/action",
+      "method": "PUT",
+      "body": {
+        "scene": "A6xgZUcfmlnFMzJ"
+      }
+    },
+    {
+      "address": "/sensors/26/state",
+      "method": "PUT",
+      "body": {
+        "status": 2
+      }
+    }
+  ]
+}

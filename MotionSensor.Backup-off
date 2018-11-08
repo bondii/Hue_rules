@@ -1,0 +1,36 @@
+{
+  "name": "MotionSensor.Backup-off",
+  "conditions": [
+    {
+      "address": "/sensors/17/state/presence",
+      "operator": "ddx",
+      "value": "PT02:00:00"
+    },
+    {
+      "address": "/sensors/17/state/presence",
+      "operator": "eq",
+      "value": "false"
+    },
+    {
+      "address": "/groups/1/state/any_on",
+      "operator": "eq",
+      "value": "true"
+    }
+  ],
+  "actions": [
+    {
+      "address": "/groups/1/action",
+      "method": "PUT",
+      "body": {
+        "on": false
+      }
+    },
+    {
+      "address": "/sensors/26/state",
+      "method": "PUT",
+      "body": {
+        "status": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "MotionSensor.Not-home",
+  "conditions": [
+    {
+      "address": "/sensors/17/state/presence",
+      "operator": "eq",
+      "value": "false"
+    },
+    {
+      "address": "/sensors/26/state/status",
+      "operator": "eq",
+      "value": "3"
+    },
+    {
+      "address": "/sensors/26/state/status",
+      "operator": "ddx",
+      "value": "PT00:30:00"
+    }
+  ],
+  "actions": [
+    {
+      "address": "/groups/1/action",
+      "method": "PUT",
+      "body": {
+        "on": false
+      }
+    },
+    {
+      "address": "/sensors/26/state",
+      "method": "PUT",
+      "body": {
+        "status": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "MotionSensor.arm",
+  "conditions": [
+    {
+      "address": "/groups/1/state/any_on",
+      "operator": "eq",
+      "value": "false"
+    },
+    {
+      "address": "/sensors/17/state/presence",
+      "operator": "eq",
+      "value": "false"
+    },
+    {
+      "address": "/sensors/26/state/status",
+      "operator": "eq",
+      "value": "2"
+    }
+  ],
+  "actions": [
+    {
+      "address": "/sensors/26/state",
+      "method": "PUT",
+      "body": {
+        "status": 3
+      }
+    }
+  ]
+}
