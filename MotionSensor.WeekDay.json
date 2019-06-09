@@ -12,9 +12,9 @@
       "value": "W124/T05:45:00/T17:00:00"
     },
     {
-     "address": "/groups/1/state/any_on",
-     "operator": "eq",
-     "value": "false"
+      "address": "/groups/1/state/any_on",
+      "operator": "eq",
+      "value": "false"
     }
   ],
   "actions": [
