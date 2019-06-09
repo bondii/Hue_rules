@@ -7,10 +7,6 @@
       "value": "1"
     },
     {
-      "address": "/sensors/26/state/status",
-      "operator": "dx"
-    },
-    {
       "address": "/config/localtime",
       "operator": "in",
       "value": "W124/T17:00:00/T00:00:00"
