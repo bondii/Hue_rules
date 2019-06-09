@@ -2,28 +2,28 @@
   "name": "MotionSensor.Motion-on",
   "conditions": [
     {
-      "address": "/sensors/17/state/presence",
+      "address": "/sensors/15/state/presence",
       "operator": "eq",
       "value": "true"
     },
     {
-    "address": "/sensors/17/state/presence",
-    "operator": "dx"
+      "address": "/sensors/15/state/presence",
+      "operator": "dx"
     },
     {
-    "address": "/sensors/26/state/status",
-    "operator": "eq",
-    "value": "0"
+      "address": "/sensors/21/state/status",
+      "operator": "eq",
+      "value": "0"
     },
     {
-    "address": "/sensors/18/state/daylight",
-    "operator": "eq",
-    "value": "false"
+      "address": "/sensors/16/state/daylight",
+      "operator": "eq",
+      "value": "false"
     }
   ],
   "actions": [
     {
-      "address": "/sensors/26/state",
+      "address": "/sensors/21/state",
       "method": "PUT",
       "body": {
         "status": 1

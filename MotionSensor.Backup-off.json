@@ -2,12 +2,12 @@
   "name": "MotionSensor.Backup-off",
   "conditions": [
     {
-      "address": "/sensors/17/state/presence",
+      "address": "/sensors/15/state/presence",
       "operator": "ddx",
       "value": "PT02:00:00"
     },
     {
-      "address": "/sensors/17/state/presence",
+      "address": "/sensors/15/state/presence",
       "operator": "eq",
       "value": "false"
     },
@@ -26,7 +26,7 @@
       }
     },
     {
-      "address": "/sensors/26/state",
+      "address": "/sensors/21/state",
       "method": "PUT",
       "body": {
         "status": 3

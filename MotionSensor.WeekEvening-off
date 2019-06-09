@@ -7,24 +7,24 @@
       "value": "W124/T17:00:00/T01:00:00"
     },
     {
-      "address": "/sensors/17/state/presence",
+      "address": "/sensors/15/state/presence",
       "operator": "ddx",
       "value": "PT01:00:00"
     },
     {
-      "address": "/sensors/17/state/presence",
+      "address": "/sensors/15/state/presence",
       "operator": "eq",
       "value": "false"
     },
     {
-      "address": "/sensors/26/state/status",
+      "address": "/sensors/21/state/status",
       "operator": "eq",
       "value": "2"
     }
   ],
   "actions": [
     {
-      "address": "/sensors/26/state",
+      "address": "/sensors/21/state",
       "method": "PUT",
       "body": {
         "status": 3

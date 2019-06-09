@@ -17,11 +17,11 @@
       "address": "/groups/1/action",
       "method": "PUT",
       "body": {
-        "scene": "A6xgZUcfmlnFMzJ"
+        "scene": "fi5ztkj3a3lQy2o"
       }
     },
     {
-      "address": "/sensors/26/state",
+      "address": "/sensors/21/state",
       "method": "PUT",
       "body": {
         "status": 2
