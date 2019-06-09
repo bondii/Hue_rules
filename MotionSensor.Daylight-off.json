@@ -1,0 +1,36 @@
+{
+  "name": "MotionSensor.Dark-off",
+  "conditions": [
+    {
+      "address": "/sensors/16/state/daylight",
+      "operator": "eq",
+      "value": "true"
+    },
+    {
+      "address": "/sensors/16/state/daylight",
+      "operator": "ddx",
+      "value": "PT00:15:00"
+    },
+    {
+      "address": "/sensors/21/state/status",
+      "operator": "eq",
+      "value": "2"
+    }
+  ],
+  "actions": [
+    {
+      "address": "/groups/1/action",
+      "method": "PUT",
+      "body": {
+        "on": false
+      }
+    },
+    {
+      "address": "/sensors/21/state",
+      "method": "PUT",
+      "body": {
+        "status": 3
+      }
+    }
+  ]
+}
