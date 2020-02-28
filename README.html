@@ -1,0 +1,27 @@
+Created by Pontus Eriksson, but completely based on
+https://developers.meethue.com/forum/t/better-rules-for-motion-sensor/4937
+
+To setup an additional CLIP sensor:
+POST the following to /api/<INSERT KEY>/sensors
+{
+  "state": {
+    "status": 2
+  },
+  "config": {
+    "on": true,
+    "reachable": true
+  },
+  "name": "stateVardagsrum",
+  "type": "CLIPGenericStatus",
+  "modelid": "Custom Motion Sensor",
+  "manufacturername": "Philips",
+  "swversion": "1.0",
+  "uniqueid": "13:37:42:00:00:0001",
+  "recycle": true
+}
+
+Now get the API numbers of your presence sensor, daylight sensor,
+CLIPGenericStatus sensor, and all the scenes you want to use.
+
+Clone the repo and change all API numbers. Copy one rule at a time and POST to
+/api/<INSERT KEY>/sensors

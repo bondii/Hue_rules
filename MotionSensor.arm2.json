@@ -7,19 +7,19 @@
       "value": "true"
     },
     {
-      "address": "/sensors/15/state/presence",
+      "address": "/sensors/9/state/presence",
       "operator": "eq",
       "value": "false"
     },
     {
-      "address": "/sensors/21/state/status",
+      "address": "/sensors/31/state/status",
       "operator": "eq",
       "value": "1"
     }
   ],
   "actions": [
     {
-      "address": "/sensors/21/state",
+      "address": "/sensors/31/state",
       "method": "PUT",
       "body": {
         "status": 2

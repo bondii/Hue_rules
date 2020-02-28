@@ -1,0 +1,539 @@
+Vid 11000 SKA det vara tänt
+
+{
+	"1": {
+		"state": {
+			"daylight": true,
+			"lastupdated": "2020-02-28T06:40:00"
+		},
+		"config": {
+			"on": true,
+			"configured": true,
+			"sunriseoffset": 30,
+			"sunsetoffset": -30
+		},
+		"name": "Daylight",
+		"type": "Daylight",
+		"modelid": "PHDL00",
+		"manufacturername": "Signify Netherlands B.V.",
+		"swversion": "1.0"
+	},
+	"2": {
+		"state": {
+			"buttonevent": 4002,
+			"lastupdated": "2020-02-25T21:30:57"
+		},
+		"swupdate": {
+			"state": "noupdates",
+			"lastinstall": "2020-02-09T13:30:04"
+		},
+		"config": {
+			"on": true,
+			"battery": 100,
+			"reachable": true,
+			"pending": []
+		},
+		"name": "Soffdimmern",
+		"type": "ZLLSwitch",
+		"modelid": "RWL021",
+		"manufacturername": "Signify Netherlands B.V.",
+		"productname": "Hue dimmer switch",
+		"diversityid": "73bbabea-3420-499a-9856-46bf437e119b",
+		"swversion": "6.1.1.28573",
+		"uniqueid": "00:17:88:01:06:e9:e1:e1-02-fc00",
+		"capabilities": {
+			"certified": true,
+			"primary": true,
+			"inputs": [
+				{
+					"repeatintervals": [
+						800
+					],
+					"events": [
+						{
+							"buttonevent": 1000,
+							"eventtype": "initial_press"
+						},
+						{
+							"buttonevent": 1001,
+							"eventtype": "repeat"
+						},
+						{
+							"buttonevent": 1002,
+							"eventtype": "short_release"
+						},
+						{
+							"buttonevent": 1003,
+							"eventtype": "long_release"
+						}
+					]
+				},
+				{
+					"repeatintervals": [
+						800
+					],
+					"events": [
+						{
+							"buttonevent": 2000,
+							"eventtype": "initial_press"
+						},
+						{
+							"buttonevent": 2001,
+							"eventtype": "repeat"
+						},
+						{
+							"buttonevent": 2002,
+							"eventtype": "short_release"
+						},
+						{
+							"buttonevent": 2003,
+							"eventtype": "long_release"
+						}
+					]
+				},
+				{
+					"repeatintervals": [
+						800
+					],
+					"events": [
+						{
+							"buttonevent": 3000,
+							"eventtype": "initial_press"
+						},
+						{
+							"buttonevent": 3001,
+							"eventtype": "repeat"
+						},
+						{
+							"buttonevent": 3002,
+							"eventtype": "short_release"
+						},
+						{
+							"buttonevent": 3003,
+							"eventtype": "long_release"
+						}
+					]
+				},
+				{
+					"repeatintervals": [
+						800
+					],
+					"events": [
+						{
+							"buttonevent": 4000,
+							"eventtype": "initial_press"
+						},
+						{
+							"buttonevent": 4001,
+							"eventtype": "repeat"
+						},
+						{
+							"buttonevent": 4002,
+							"eventtype": "short_release"
+						},
+						{
+							"buttonevent": 4003,
+							"eventtype": "long_release"
+						}
+					]
+				}
+			]
+		}
+	},
+	"6": {
+		"state": {
+			"buttonevent": 18,
+			"lastupdated": "2020-02-22T15:48:44"
+		},
+		"swupdate": {
+			"state": "notupdatable",
+			"lastinstall": null
+		},
+		"config": {
+			"on": true
+		},
+		"name": "Sovrumsswitchen",
+		"type": "ZGPSwitch",
+		"modelid": "ZGPSWITCH",
+		"manufacturername": "Signify Netherlands B.V.",
+		"productname": "Hue tap switch",
+		"diversityid": "d8cde5d5-0eef-4b95-b0f0-71ddd2952af4",
+		"uniqueid": "00:00:00:00:00:41:f3:8a-f2",
+		"capabilities": {
+			"certified": true,
+			"primary": true,
+			"inputs": [
+				{
+					"repeatintervals": [],
+					"events": [
+						{
+							"buttonevent": 34,
+							"eventtype": "initial_press"
+						}
+					]
+				},
+				{
+					"repeatintervals": [],
+					"events": [
+						{
+							"buttonevent": 16,
+							"eventtype": "initial_press"
+						}
+					]
+				},
+				{
+					"repeatintervals": [],
+					"events": [
+						{
+							"buttonevent": 17,
+							"eventtype": "initial_press"
+						}
+					]
+				},
+				{
+					"repeatintervals": [],
+					"events": [
+						{
+							"buttonevent": 18,
+							"eventtype": "initial_press"
+						}
+					]
+				}
+			]
+		}
+	},
+	"9": {
+		"state": {
+			"presence": false,
+			"lastupdated": "2020-02-28T07:17:32"
+		},
+		"swupdate": {
+			"state": "noupdates",
+			"lastinstall": "2020-02-22T09:44:19"
+		},
+		"config": {
+			"on": true,
+			"battery": 60,
+			"reachable": true,
+			"alert": "none",
+			"sensitivity": 1,
+			"sensitivitymax": 2,
+			"ledindication": false,
+			"usertest": false,
+			"pending": []
+		},
+		"name": "Vardagsrum övervakarN",
+		"type": "ZLLPresence",
+		"modelid": "SML001",
+		"manufacturername": "Signify Netherlands B.V.",
+		"productname": "Hue motion sensor",
+		"swversion": "6.1.1.27575",
+		"uniqueid": "00:17:88:01:02:13:25:a2-02-0406",
+		"capabilities": {
+			"certified": true,
+			"primary": true
+		}
+	},
+	"10": {
+		"state": {
+			"lightlevel": 10466,
+			"dark": false,
+			"daylight": false,
+			"lastupdated": "2020-02-28T07:16:39"
+		},
+		"swupdate": {
+			"state": "noupdates",
+			"lastinstall": "2020-02-22T09:44:19"
+		},
+		"config": {
+			"on": true,
+			"battery": 60,
+			"reachable": true,
+			"alert": "none",
+			"tholddark": 4000,
+			"tholdoffset": 13000,
+			"ledindication": false,
+			"usertest": false,
+			"pending": []
+		},
+		"name": "Hue ambient light sensor 1",
+		"type": "ZLLLightLevel",
+		"modelid": "SML001",
+		"manufacturername": "Signify Netherlands B.V.",
+		"productname": "Hue ambient light sensor",
+		"swversion": "6.1.1.27575",
+		"uniqueid": "00:17:88:01:02:13:25:a2-02-0400",
+		"capabilities": {
+			"certified": true,
+			"primary": false
+		}
+	},
+	"11": {
+		"state": {
+			"temperature": 1969,
+			"lastupdated": "2020-02-28T07:17:34"
+		},
+		"swupdate": {
+			"state": "noupdates",
+			"lastinstall": "2020-02-22T09:44:19"
+		},
+		"config": {
+			"on": true,
+			"battery": 60,
+			"reachable": true,
+			"alert": "none",
+			"ledindication": false,
+			"usertest": false,
+			"pending": []
+		},
+		"name": "Hue temperature sensor 1",
+		"type": "ZLLTemperature",
+		"modelid": "SML001",
+		"manufacturername": "Signify Netherlands B.V.",
+		"productname": "Hue temperature sensor",
+		"swversion": "6.1.1.27575",
+		"uniqueid": "00:17:88:01:02:13:25:a2-02-0402",
+		"capabilities": {
+			"certified": true,
+			"primary": false
+		}
+	},
+	"14": {
+		"state": {
+			"flag": false,
+			"lastupdated": "2020-02-23T07:30:00"
+		},
+		"config": {
+			"on": true,
+			"reachable": true
+		},
+		"name": "Sensor for wakeup",
+		"type": "CLIPGenericFlag",
+		"modelid": "WAKEUP",
+		"manufacturername": "Philips",
+		"swversion": "A_1935144040",
+		"uniqueid": "L_04_SB0Dh",
+		"recycle": true
+	},
+	"15": {
+		"state": {
+			"flag": false,
+			"lastupdated": "2020-02-28T06:38:12"
+		},
+		"config": {
+			"on": true,
+			"reachable": true
+		},
+		"name": "Sensor for wakeup",
+		"type": "CLIPGenericFlag",
+		"modelid": "WAKEUP",
+		"manufacturername": "Philips",
+		"swversion": "A_1935144040",
+		"uniqueid": "L_04_hBmXI",
+		"recycle": true
+	},
+	"16": {
+		"state": {
+			"flag": false,
+			"lastupdated": "2020-02-28T02:30:00"
+		},
+		"config": {
+			"on": true,
+			"reachable": true
+		},
+		"name": "Routine.companion",
+		"type": "CLIPGenericFlag",
+		"modelid": "PHA_CTRL_START",
+		"manufacturername": "Philips",
+		"swversion": "1.0",
+		"uniqueid": "Yme5g1h7Txrm",
+		"recycle": true
+	},
+	"17": {
+		"state": {
+			"flag": false,
+			"lastupdated": "2020-02-26T22:03:44"
+		},
+		"config": {
+			"on": true,
+			"reachable": true
+		},
+		"name": "Timer.companion",
+		"type": "CLIPGenericFlag",
+		"modelid": "PHA_TIMER",
+		"manufacturername": "Philips",
+		"swversion": "1.0",
+		"uniqueid": "4MQcDvSSk4Ak",
+		"recycle": true
+	},
+	"20": {
+		"state": {
+			"flag": false,
+			"lastupdated": "2020-02-27T21:27:51"
+		},
+		"config": {
+			"on": true,
+			"reachable": true
+		},
+		"name": "Timer.companion",
+		"type": "CLIPGenericFlag",
+		"modelid": "PHA_TIMER",
+		"manufacturername": "Philips",
+		"swversion": "1.0",
+		"uniqueid": "QCWiEXkVWSwr",
+		"recycle": true
+	},
+	"21": {
+		"state": {
+			"status": 3,
+			"lastupdated": "2020-02-28T07:17:32"
+		},
+		"config": {
+			"on": true,
+			"reachable": true
+		},
+		"name": "presenceState",
+		"type": "CLIPGenericStatus",
+		"modelid": "HUELABSENUM",
+		"manufacturername": "Philips",
+		"swversion": "1.0",
+		"uniqueid": "5:12:352d-bb7c-41fe-8689",
+		"recycle": true
+	},
+	"22": {
+		"state": {
+			"status": 0,
+			"lastupdated": "2020-02-28T06:12:08"
+		},
+		"config": {
+			"on": true,
+			"reachable": true
+		},
+		"name": "textState",
+		"type": "CLIPGenericStatus",
+		"modelid": "BEH_STATE",
+		"manufacturername": "Philips",
+		"swversion": "1.0",
+		"uniqueid": "2:13:78ef-f490-4ca7-a2fc",
+		"recycle": true
+	},
+	"23": {
+		"state": {
+			"status": 0,
+			"lastupdated": "2020-02-27T16:07:00"
+		},
+		"config": {
+			"on": true,
+			"reachable": true
+		},
+		"name": "Routine.companion",
+		"type": "CLIPGenericStatus",
+		"modelid": "PHA_STATE",
+		"manufacturername": "Philips",
+		"swversion": "1.0",
+		"uniqueid": "l7rRzxhLUI3E",
+		"recycle": true
+	},
+	"26": {
+		"state": {
+			"status": 0,
+			"lastupdated": "2020-02-24T19:33:58"
+		},
+		"config": {
+			"on": true,
+			"reachable": true
+		},
+		"name": "Scandinavian + 5m",
+		"type": "CLIPGenericStatus",
+		"modelid": "HUELABSVTOGGLE",
+		"manufacturername": "Philips",
+		"swversion": "2.0",
+		"uniqueid": "2:9:da45-5d40-4617-ad02",
+		"recycle": true
+	},
+	"28": {
+		"state": {
+			"status": 1,
+			"lastupdated": "2020-02-25T21:31:03"
+		},
+		"config": {
+			"on": true,
+			"reachable": true
+		},
+		"name": "cycling",
+		"type": "CLIPGenericStatus",
+		"modelid": "HUELABSENUM",
+		"manufacturername": "Philips",
+		"swversion": "1.0",
+		"uniqueid": "2:0:0d55-6f42-4e85-921a",
+		"recycle": true
+	},
+	"29": {
+		"state": {
+			"status": 1,
+			"lastupdated": "2020-02-25T21:30:53"
+		},
+		"config": {
+			"on": true,
+			"reachable": true
+		},
+		"name": "cycleState",
+		"type": "CLIPGenericStatus",
+		"modelid": "HUELABSENUM",
+		"manufacturername": "Philips",
+		"swversion": "1.0",
+		"uniqueid": "0:1:f409-818c-4fa8-8d8c",
+		"recycle": true
+	},
+	"30": {
+		"state": {
+			"status": 0,
+			"lastupdated": "2020-02-28T07:11:27"
+		},
+		"config": {
+			"on": true,
+			"reachable": true
+		},
+		"name": "colorloop",
+		"type": "CLIPGenericStatus",
+		"modelid": "HUELABSVTOGGLE",
+		"manufacturername": "Philips",
+		"swversion": "2.0",
+		"uniqueid": "2:4:24b9-0f53-4df6-9443",
+		"recycle": true
+	},
+	"31": {
+		"state": {
+			"status": 2,
+			"lastupdated": "2020-02-28T06:12:08"
+		},
+		"config": {
+			"on": true,
+			"reachable": true
+		},
+		"name": "stateVardagsrum",
+		"type": "CLIPGenericStatus",
+		"modelid": "Custom Motion Sensor",
+		"manufacturername": "Philips",
+		"swversion": "1.0",
+		"uniqueid": "13:37:42:00:00:0001",
+		"recycle": true
+	},
+	"32": {
+		"state": {
+			"flag": false,
+			"lastupdated": "2020-02-27T21:17:05"
+		},
+		"config": {
+			"on": true,
+			"reachable": true
+		},
+		"name": "Timer.companion",
+		"type": "CLIPGenericFlag",
+		"modelid": "PHA_TIMER",
+		"manufacturername": "Philips",
+		"swversion": "1.0",
+		"uniqueid": "6s7hzkbY84mb",
+		"recycle": true
+	}
+}

@@ -2,12 +2,12 @@
   "name": "MotionSensor.WeekendNight",
   "conditions": [
     {
-      "address": "/sensors/21/state/status",
+      "address": "/sensors/31/state/status",
       "operator": "eq",
       "value": "1"
     },
     {
-      "address": "/sensors/21/state/status",
+      "address": "/sensors/31/state/status",
       "operator": "dx"
     },
     {
@@ -26,11 +26,11 @@
       "address": "/groups/1/action",
       "method": "PUT",
       "body": {
-        "scene": "lcuef4xjlu5tB0A"
+        "scene": "G4HT04Lf86C8Bvk"
       }
     },
     {
-      "address": "/sensors/21/state",
+      "address": "/sensors/31/state",
       "method": "PUT",
       "body": {
         "status": 2
