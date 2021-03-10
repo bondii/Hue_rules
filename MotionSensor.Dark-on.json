@@ -8,12 +8,12 @@
       "value": "true"
     },
     {
-      "address": "/sensors/10/state/daylight",
+      "address": "/sensors/10/state/dark",
       "operator": "eq",
-      "value": "false"
+      "value": "true"
     },
     {
-      "address": "/sensors/10/state/daylight",
+      "address": "/sensors/10/state/dark",
       "operator": "dx"
     },
     {

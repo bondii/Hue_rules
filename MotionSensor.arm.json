@@ -9,8 +9,7 @@
     },
     {
       "address": "/sensors/9/state/presence",
-      "operator": "eq",
-      "value": "false"
+      "operator": "dx"
     },
     {
       "address": "/sensors/37/state/status",
