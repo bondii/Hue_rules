@@ -1,5 +1,6 @@
 {
   "name": "MotionSensor.Recover",
+  "status": "enabled",
   "conditions": [
     {
       "address": "/sensors/9/state/presence",

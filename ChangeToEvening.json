@@ -1,5 +1,6 @@
 {
   "name": "ChangeToEvening",
+  "status": "enabled",
   "conditions": [
     {
       "address": "/config/localtime",

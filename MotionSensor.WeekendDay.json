@@ -1,5 +1,6 @@
 {
   "name": "MotionSensor.WeekendDay",
+  "status": "enabled",
   "conditions": [
     {
       "address": "/sensors/31/state/status",

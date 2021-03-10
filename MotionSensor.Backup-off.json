@@ -1,5 +1,6 @@
 {
   "name": "MotionSensor.Backup-off",
+  "status": "enabled",
   "conditions": [
     {
       "address": "/sensors/9/state/presence",

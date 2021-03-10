@@ -1,5 +1,6 @@
 {
   "name": "MotionSensor.arm",
+  "status": "enabled",
   "conditions": [
     {
       "address": "/groups/1/state/any_on",

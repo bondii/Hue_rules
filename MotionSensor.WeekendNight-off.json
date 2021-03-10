@@ -1,5 +1,6 @@
 {
   "name": "MotionSensor.WeekendNight-off",
+  "status": "enabled",
   "conditions": [
     {
       "address": "/config/localtime",
