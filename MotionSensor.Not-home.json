@@ -8,12 +8,12 @@
       "value": "false"
     },
     {
-      "address": "/sensors/31/state/status",
+      "address": "/sensors/37/state/status",
       "operator": "eq",
       "value": "3"
     },
     {
-      "address": "/sensors/31/state/status",
+      "address": "/sensors/37/state/status",
       "operator": "ddx",
       "value": "PT00:30:00"
     }
@@ -27,7 +27,7 @@
       }
     },
     {
-      "address": "/sensors/31/state",
+      "address": "/sensors/37/state",
       "method": "PUT",
       "body": {
         "status": 0

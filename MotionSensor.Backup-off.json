@@ -27,7 +27,7 @@
       }
     },
     {
-      "address": "/sensors/31/state",
+      "address": "/sensors/37/state",
       "method": "PUT",
       "body": {
         "status": 3

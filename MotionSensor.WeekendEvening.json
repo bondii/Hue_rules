@@ -3,13 +3,9 @@
   "status": "enabled",
   "conditions": [
     {
-      "address": "/sensors/31/state/status",
+      "address": "/sensors/37/state/status",
       "operator": "eq",
       "value": "1"
-    },
-    {
-      "address": "/sensors/31/state/status",
-      "operator": "dx"
     },
     {
       "address": "/config/localtime",
@@ -31,7 +27,7 @@
       }
     },
     {
-      "address": "/sensors/31/state",
+      "address": "/sensors/37/state",
       "method": "PUT",
       "body": {
         "status": 2

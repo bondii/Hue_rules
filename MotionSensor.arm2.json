@@ -13,14 +13,14 @@
       "value": "false"
     },
     {
-      "address": "/sensors/31/state/status",
+      "address": "/sensors/37/state/status",
       "operator": "eq",
       "value": "1"
     }
   ],
   "actions": [
     {
-      "address": "/sensors/31/state",
+      "address": "/sensors/37/state",
       "method": "PUT",
       "body": {
         "status": 2
